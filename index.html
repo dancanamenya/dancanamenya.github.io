@@ -259,6 +259,18 @@
         font-size: 32px;
       }
     }
+    .qa-gallery{
+  display:grid;
+  grid-template-columns:repeat(auto-fit, minmax(250px,1fr));
+  gap:16px;
+  margin-top:16px;
+}
+
+.qa-gallery img{
+  width:100%;
+  border-radius:8px;
+  box-shadow:0 3px 8px rgba(0,0,0,0.1);
+}
   </style>
 </head>
 <body>
@@ -428,6 +440,12 @@
         </p>
          <img src="images/qa-process.png"
        alt="Quality assurance workflow and tracking sheet"
+       style="width:100%; max-width:600px; border-radius:8px; margin-top:12px;">
+        <img src="images/qa-checklist.png"
+       alt="Quality assurance checklist example"
+       style="width:100%; max-width:600px; border-radius:8px; margin-top:12px;">
+  <img src="images/qa-workflow.png"
+       alt="QA workflow process diagram"
        style="width:100%; max-width:600px; border-radius:8px; margin-top:12px;">
 
   <div class="project-note">
